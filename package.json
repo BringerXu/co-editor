@@ -1,0 +1,11 @@
+{
+  "name": "collaborative-editor",
+  "version": "1.0.0",
+  "description": "collaborative and rich-text editor implementation with sharedb(OT algo)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "RusselIX",
+  "license": "ISC"
+}

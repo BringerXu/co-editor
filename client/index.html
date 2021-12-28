@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tinymce/tinymce-webcomponent@1/dist/tinymce-webcomponent.min.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <tinymce-editor api-key="no-api-key" height="500" menubar="false" plugins="advlist autolink lists link image charmap print preview anchor
+      searchreplace visualblocks code fullscreen
+      insertdatetime media table paste code help wordcount" toolbar="undo redo | formatselect | bold italic backcolor |
+      alignleft aligncenter alignright alignjustify |
+      bullist numlist outdent indent | removeformat | help" content_style="body
+      {
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:14px
+      }">
+  </tinymce-editor>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
